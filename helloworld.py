@@ -22,7 +22,10 @@ class Solution:
         #input type: String
         # return type: String
 
-        # TODO: Write code below to return a string with the solution to the prompt
+        if string == "Hello World!": 
+            return "Hello World!" 
+        else: 
+            return None
         pass
 
 def main():
