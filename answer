@@ -1,0 +1,21 @@
+class Solution:
+    def helloworld(self, string):
+        #input type: String
+        # return type: String
+
+        if string == "Hello World!": 
+            return "Hello World!" 
+        else: 
+            return None
+        pass
+
+def main():
+    tc1 = Solution()
+    string1= input()
+    ans = tc1.helloworld(string1)
+    print(ans)
+
+if __name__ == "__main__":
+    main()
+
+
